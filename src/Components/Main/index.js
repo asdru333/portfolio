@@ -49,7 +49,7 @@ export default function Main() {
                 </p>
               </div>
               <div className="lg:w-1/2 w-full">
-                <img src="perfil2.jpg" alt="foto de perfil" className="lg:max-h-none max-h-[500px] h-full w-full object-cover"/>
+                <img src={process.env.PUBLIC_URL + "/perfil2.jpg"} alt="foto de perfil" className="lg:max-h-none max-h-[500px] h-full w-full object-cover"/>
               </div>
             </div>
             <div id="education" className="flex flex-col my-14">
@@ -59,11 +59,11 @@ export default function Main() {
                   <button className={`rounded-xl py-2 px-4 text-3xl ${primary  ? 'bg-[#d9e7f0] text-[#203447]' : 'bg-white text-[#203447]'}`} 
                   onClick={() => setPrimary(!primary)}>primary education</button>
                   <div className={`flex flex-col justify-center ${primary  ? 'inline' : 'hidden'}`}>
-                    <img src="kamuk_school.png" alt="Kamuk School logo" className="self-center w-[200px] h-[180px]"/>
+                    <img src={process.env.PUBLIC_URL + "/kamuk_school.png"} alt="Kamuk School logo" className="self-center w-[200px] h-[180px]"/>
                     <p className="text-2xl my-4 text-center self-center"><b>Kamuk School</b> (2010-2012)<br/>San Jose, Costa Rica.</p>
                   </div>
                   <div className={`flex flex-col justify-center ${primary  ? 'inline' : 'hidden'}`}>
-                    <img src="claret.png" alt="Claret logo" className="self-center w-[200px] h-[180px]"/>
+                    <img src={process.env.PUBLIC_URL + "/claret.png"} alt="Claret logo" className="self-center w-[200px] h-[180px]"/>
                     <p className="text-2xl my-4 text-center self-center"><b>Claret College</b> (2007-2010)<br/>Caracas, Venezuela.</p>
                   </div>
                 </div>
@@ -71,7 +71,7 @@ export default function Main() {
                   <button className={`rounded-xl py-2 px-4 text-3xl ${secundary  ? 'bg-[#d9e7f0] text-[#203447]' : 'bg-white text-[#203447]'}`} 
                   onClick={() => setSecundary(!secundary)}>secundary education</button>
                   <div className={`flex flex-col justify-center ${secundary  ? 'inline' : 'hidden'}`}>
-                    <img src="kamuk_school.png" alt="Kamuk School logo" className="self-center w-[200px] h-[180px]"/>
+                    <img src={process.env.PUBLIC_URL + "/kamuk_school.png"} alt="Kamuk School logo" className="self-center w-[200px] h-[180px]"/>
                     <p className="text-2xl my-4 text-center self-center"><b>Kamuk School</b> 
                     (2013-2017)<br/>San Jose, Costa Rica.</p>
                   </div>
@@ -80,7 +80,7 @@ export default function Main() {
                   <button className={`rounded-xl py-2 px-4 text-3xl ${universitary  ? 'bg-[#d9e7f0] text-[#203447]' : 'bg-white text-[#203447]'}`} 
                   onClick={() => setUniversitary(!universitary)}>universitary education</button>
                   <div className={`flex flex-col justify-center ${universitary  ? 'inline' : 'hidden'}`}>
-                    <img src="ucr-logo.jpeg" alt="UCR logo" className="self-center w-[200px] h-[180px]"/>
+                    <img src={process.env.PUBLIC_URL + "/ucr-logo.jpeg"} alt="UCR logo" className="self-center w-[200px] h-[180px]"/>
                     <p className="text-2xl my-4 text-center self-center"><b>University of Costa Rica</b> (2018-2023)<br/>
                     San Jose, Costa Rica.</p>
                   </div>
@@ -94,19 +94,19 @@ export default function Main() {
                 <p className="text-3xl font-semibold">Aditional courses</p>
                 <Carousel showThumbs={false} autoPlay={true} interval={3000} infiniteLoop={true}>
                   <div>
-                    <img src='/pythonProgramacion.jpg' alt="carrusel 1" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/pythonProgramacion.jpg"} alt="carrusel 1" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src='/habilidadesBlandas.jpg' alt="carrusel 2" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/habilidadesBlandas.jpg"} alt="carrusel 2" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src='/ciberseguridadFidelitas.jpg' alt="carrusel 3" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/ciberseguridadFidelitas.jpg"} alt="carrusel 3" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src='/CursoInglesB2.jpg' alt="carrusel 4" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/CursoInglesB2.jpg"} alt="carrusel 4" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src='/matem.jpg' alt="carrusel 5" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/matem.jpg"} alt="carrusel 5" className='lg:h-[700px] h-[450px]'/>
                   </div>
                 </Carousel>
                 </Fade>
@@ -116,22 +116,22 @@ export default function Main() {
                 <p className="text-3xl font-semibold">Recognitions and honorable mentions</p>
                 <Carousel showThumbs={false} autoPlay={true} interval={3000} infiniteLoop={true}>
                   <div>
-                    <img src='/ucrMencion.jpg' alt="carrusel 1" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/ucrMencion.jpg"} alt="carrusel 1" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src='/TecAdmision.jpg' alt="carrusel 2" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/TecAdmision.jpg"} alt="carrusel 2" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src='/BachilerConExcelencia.jpg' alt="carrusel 3" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/BachilerConExcelencia.jpg"} alt="carrusel 3" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src='/kamusExcelenciaAcadémica.jpg' alt='carrusel 4' className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/kamusExcelenciaAcadémica.jpg"} alt='carrusel 4' className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src='/mejoresPrimeroPromediosCircuito.jpg' alt='carrusel 5' className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/mejoresPrimeroPromediosCircuito.jpg"} alt='carrusel 5' className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src='/mejoresTerceroPromediosCircuito.jpg' alt='carrusel 6' className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/mejoresTerceroPromediosCircuito.jpg"} alt='carrusel 6' className='lg:h-[700px] h-[450px]'/>
                   </div>
                 </Carousel>
                 </Fade>
@@ -146,7 +146,9 @@ export default function Main() {
                 <p className="lg:text-2xl text-xl mb-4">Dimeltro contracted me to make a website of their company. This is an informative website that has: home page,
                 about page, contact page, projects page and the services that the company offers</p>
                 <a href="https://www.dimeltro.com/" className="lg:text-2xl text-xl text-gray-400 mb-2">https://www.dimeltro.com/</a>
-                <img src="/dimeltro.jpg" alt="Dimeltro main page" className='lg:text-2xl text-xl lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                <a href="https://www.dimeltro.com/">
+                  <img src={process.env.PUBLIC_URL + "/dimeltro.jpg"} alt="Dimeltro main page" className='lg:text-2xl text-xl lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                </a>
               </div>
               </Fade>
               <Fade>
@@ -156,8 +158,10 @@ export default function Main() {
                 <p className="lg:text-2xl text-xl mb-4">This is a website of a fictional steak restarant known as "El Asado". This website was made to prove my abilities 
                 with Angular and Firebase. This website is composed by different pages like: a home page, about page, contact page, login page (including registration 
                 and recover password), menu and cart.</p>
-                <a href="https://www.elsado.netlify.com/" className="lg:text-2xl text-xl text-gray-400 mb-2">https://www.elsado.netlify.com/</a>
-                <img src="/elAsado.jpg" alt="El Asado main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                <a href="https://elasado.netlify.app/" className="lg:text-2xl text-xl text-gray-400 mb-2">https://elasado.netlify.app/</a>
+                <a href="https://elasado.netlify.app/">
+                  <img src={process.env.PUBLIC_URL + "/elAsado.jpg"} alt="El Asado main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                </a>
               </div>
               </Fade>
               <Fade>
@@ -168,7 +172,9 @@ export default function Main() {
                 app with a real client. This app is Kane Taxi, a cooperative of women taxi drivers.</p>
                 <a href="https://play.google.com/store/apps/details?id=ucr.ci0156.cooperativademujerestaxistas.client" className="text-gray-400 lg:text-2xl text-xl mb-2">
                   Kane Taxi app</a>
-                <img src="/kaneTaxi.jpg" alt="Kane taxi in Google Play store" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                <a href="https://play.google.com/store/apps/details?id=ucr.ci0156.cooperativademujerestaxistas.client">
+                  <img src={process.env.PUBLIC_URL + "/kaneTaxi.jpg"} alt="Kane taxi in Google Play store" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                </a>
               </div>
               </Fade>
               <Fade>
@@ -178,7 +184,9 @@ export default function Main() {
                 <p className="lg:text-2xl text-xl mb-4">With the help of a work team of 3 members we managed to create a shopping app from the fictional company Arce Shopping. 
                 In the app features we can find: login (including registration and recover password), shop, cart and user profile.</p>
                 <a href="https://github.com/solvalle/ArceShopping" className="lg:text-2xl text-xl text-gray-400 mb-2">Github</a>
-                <img src="/arceShopping.jpg" alt="Arce shopping login page (emulator)" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                <a href="https://github.com/solvalle/ArceShopping">
+                  <img src={process.env.PUBLIC_URL + "/arceShopping.jpg"} alt="Arce shopping login page (emulator)" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                </a>
               </div>
               </Fade>
               <Fade>
@@ -189,7 +197,9 @@ export default function Main() {
                 were included such as: menu, option to create a personalized pizza, information pages about the pizzeria, login (including registration and recover password) 
                 and a shopping cart</p>
                 <a href="https://pizzamagma.netlify.com" className="lg:text-2xl text-xl text-gray-400 mb-2">https://pizzamagma.netlify.com</a>
-                <img src="/pizzaMagma.jpg" alt="Pizza Magma main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                <a href="https://pizzamagma.netlify.com">
+                  <img src={process.env.PUBLIC_URL + "/pizzaMagma.jpg"} alt="Pizza Magma main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                </a>
               </div>
               </Fade>
               <Fade>
@@ -200,7 +210,9 @@ export default function Main() {
                 with the name: Halley Planetarium. Various functions aimed at users and others aimed at system officials were included. Among the general elements 
                 that the page has are: news, activities, frequently asked questions, educational games and graphs for data analysis.</p>
                 <a href="https://github.com/Bryan1150/PI-Inge-Bases-Grupo-3" className="lg:text-2xl text-xl text-gray-400 mb-2">github</a>
-                <img src="/planetarioHalley.jpg" alt="planetario Halley main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                <a href="https://github.com/Bryan1150/PI-Inge-Bases-Grupo-3">
+                  <img src={process.env.PUBLIC_URL + "/planetarioHalley.jpg"} alt="planetario Halley main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                </a>
               </div>
               </Fade>
             </div>
