@@ -147,7 +147,7 @@ export default function Main() {
                 about page, contact page, projects page and the services that the company offers</p>
                 <a href="https://www.dimeltro.com/" className="lg:text-2xl text-xl text-gray-400 mb-2">https://www.dimeltro.com/</a>
                 <a href="https://www.dimeltro.com/">
-                  <img src={process.env.PUBLIC_URL + "/dimeltro.jpg"} alt="Dimeltro main page" className='lg:text-2xl text-xl lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                  <img src={process.env.PUBLIC_URL + "/dimeltro.jpg"} alt="Dimeltro main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
                 </a>
               </div>
               </Fade>
@@ -160,7 +160,7 @@ export default function Main() {
                 and recover password), menu and cart.</p>
                 <a href="https://elasado.netlify.app/" className="lg:text-2xl text-xl text-gray-400 mb-2">https://elasado.netlify.app/</a>
                 <a href="https://elasado.netlify.app/">
-                  <img src={process.env.PUBLIC_URL + "/elAsado.jpg"} alt="El Asado main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                  <img src={process.env.PUBLIC_URL + "/elAsado.jpg"} alt="El Asado main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
                 </a>
               </div>
               </Fade>
@@ -173,7 +173,7 @@ export default function Main() {
                 <a href="https://play.google.com/store/apps/details?id=ucr.ci0156.cooperativademujerestaxistas.client" className="text-gray-400 lg:text-2xl text-xl mb-2">
                   Kane Taxi app</a>
                 <a href="https://play.google.com/store/apps/details?id=ucr.ci0156.cooperativademujerestaxistas.client">
-                  <img src={process.env.PUBLIC_URL + "/kaneTaxi.jpg"} alt="Kane taxi in Google Play store" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                  <img src={process.env.PUBLIC_URL + "/kaneTaxi.jpg"} alt="Kane taxi in Google Play store" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
                 </a>
               </div>
               </Fade>
@@ -185,7 +185,7 @@ export default function Main() {
                 In the app features we can find: login (including registration and recover password), shop, cart and user profile.</p>
                 <a href="https://github.com/solvalle/ArceShopping" className="lg:text-2xl text-xl text-gray-400 mb-2">Github</a>
                 <a href="https://github.com/solvalle/ArceShopping">
-                  <img src={process.env.PUBLIC_URL + "/arceShopping.jpg"} alt="Arce shopping login page (emulator)" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                  <img src={process.env.PUBLIC_URL + "/arceShopping.jpg"} alt="Arce shopping login page (emulator)" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
                 </a>
               </div>
               </Fade>
@@ -198,7 +198,7 @@ export default function Main() {
                 and a shopping cart</p>
                 <a href="https://pizzamagma.netlify.com" className="lg:text-2xl text-xl text-gray-400 mb-2">https://pizzamagma.netlify.com</a>
                 <a href="https://pizzamagma.netlify.com">
-                  <img src={process.env.PUBLIC_URL + "/pizzaMagma.jpg"} alt="Pizza Magma main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                  <img src={process.env.PUBLIC_URL + "/pizzaMagma.jpg"} alt="Pizza Magma main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
                 </a>
               </div>
               </Fade>
@@ -211,7 +211,7 @@ export default function Main() {
                 that the page has are: news, activities, frequently asked questions, educational games and graphs for data analysis.</p>
                 <a href="https://github.com/Bryan1150/PI-Inge-Bases-Grupo-3" className="lg:text-2xl text-xl text-gray-400 mb-2">github</a>
                 <a href="https://github.com/Bryan1150/PI-Inge-Bases-Grupo-3">
-                  <img src={process.env.PUBLIC_URL + "/planetarioHalley.jpg"} alt="planetario Halley main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px]'/>
+                  <img src={process.env.PUBLIC_URL + "/planetarioHalley.jpg"} alt="planetario Halley main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
                 </a>
               </div>
               </Fade>
