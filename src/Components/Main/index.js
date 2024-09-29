@@ -52,6 +52,60 @@ export default function Main() {
                 <img src={process.env.PUBLIC_URL + "/perfil2.jpg"} alt="foto de perfil" className="lg:max-h-none max-h-[500px] h-full w-full object-cover"/>
               </div>
             </div>
+            <div id="experience" className="flex flex-col my-14 gap-y-6">
+              <p className="text-4xl font-bold mb-4">Experience</p>
+                <Fade>
+                <div className="flex flex-col lg:gap-x-8 lg:gap-y-4 gap-y-2">
+                  <p className="text-3xl font-semibold"><img src={process.env.PUBLIC_URL + "/Gao-logo.jpg"} className="h-10 w-18 inline mr-2" alt="Gao logo"/>
+                  Customer service at Cyracom (2024 - Present)</p>
+                  <p className="lg:text-2xl text-xl">As an interpreter and support specialist, my focus is on ensuring that customer inquiries and technical issues 
+                    are addressed with accuracy and efficiency. This includes the ability to interpret and convey complex information clearly and concisely, as well 
+                    as resolving issues in real-time to ensure customer satisfaction in various fields such as technology, healthcare, insurance, banking, and emergency 
+                    services.</p>
+                </div>
+                </Fade>
+
+                <Fade>
+                <div className="flex flex-col lg:gap-x-8 lg:gap-y-4 gap-y-2">
+                  <p className="text-3xl font-semibold"><img src={process.env.PUBLIC_URL + "/cyracom-logo.png"} className="h-10 w-18 inline mr-2" alt="Cyracom logo"/>
+                  Tech support and then team leader at GAO Tek Inc (2023 - 2024)</p>
+                  <p className="lg:text-2xl text-xl"><b>Team leader:</b> By demonstrating my skills in technical support, I was promoted to Assistant Team Leader 
+                  and shortly after I ascended to Team Leader. My responsibility involved carrying out administrative, supervision, development and training tasks. 
+                  Soft skills such as leadership and decision-making were fundamental in performing this role. Additionally, since I worked with a team composed of 
+                  members from different cultures, understanding how to operate in a multicultural environment and being adaptable were crucial aspects.
+                  <br/><br/>
+                  <b>Tech support:</b> I took an internship at the company GAO Tek Inc as tech support. Due to my experience in web development, my main job was to 
+                  help develop different web pages that describe the different products that the company offers.</p>
+                </div>
+                </Fade>
+
+                <Fade>
+                <div className="flex flex-col lg:gap-x-8 lg:gap-y-4 gap-y-2">
+                  <p className="text-3xl font-semibold"><img src={process.env.PUBLIC_URL + "/dimeltro-logo.png"} className="h-10 w-18 inline mr-2" alt="Dimeltro logo"/>
+                  Development of a website for the company Dimeltro (2023)</p>
+                  <p className="lg:text-2xl text-xl">A functional and attractive website was created and designed for the company Dimeltro S.A. that reflected the 
+                    company's identity. The work spanned from the initial planning, involving constant communication with the client, to the implementation of key site 
+                    functionalities</p>
+                  <p className="lg:text-2xl text-xl"><b>Technologies:</b> React.js and tailwindcss.</p>
+                  <p><a href="https://www.dimeltro.com/" className="lg:text-2xl text-xl text-gray-400 mb-2 hover:text-white">https://www.dimeltro.com/</a></p>
+                </div>
+                </Fade>
+
+                <Fade>
+                <div className="flex flex-col lg:gap-x-8 lg:gap-y-4 gap-y-2">
+                  <p className="text-3xl font-semibold"><img src={process.env.PUBLIC_URL + "/ucr-logo.jpeg"} className="h-12 w-12 inline mr-2" alt="Gao logo"/>
+                  teacher assitant at the University of Costa Rica (2023)</p>
+                  <p className="lg:text-2xl text-xl">Roles performed:</p>
+                    <ul className="lg:text-2xl text-xl list-item list-disc ml-6">
+                      <li>Coordination of administrative tasks, facilitating the smooth operation of academic activities.</li>
+                      <li>Tutoring and mentoring students, guiding them in their academic development.</li>
+                      <li>Assisting students in communicating with the professor.</li>
+                      <li>Evaluation and grading of exams and projects.</li>
+                    </ul>
+                </div>
+                </Fade>
+
+            </div>
             <div id="education" className="flex flex-col my-14">
               <p className="text-4xl font-bold">Education</p>
               <div className="flex lg:flex-row flex-col lg:gap-x-8 lg:gap-y-0 gap-y-2 justify-between my-6">
@@ -138,11 +192,11 @@ export default function Main() {
               </div>
             </div>
             <div id="projects" className="flex flex-col my-14 gap-y-12">
-              <Fade>
               <p className="text-4xl font-bold">Projects</p>
+              <Fade>
               <div className="flex flex-col">
-                <p className="text-3xl font-semibold">Development of a website for the company Dimeltro (2023).</p>
-                <p className="lg:text-2xl text-xl lg:mb-0 mb-4"><b>Technologies:</b> React.js and tailwindcss.</p>
+                <p className="text-3xl font-semibold mb-4"><strong>Development of a website for the company Dimeltro (2023)</strong>.</p>
+                <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> React.js and tailwindcss.</p>
                 <p className="lg:text-2xl text-xl mb-4">Dimeltro contracted me to make a website of their company. This is an informative website that has: home page,
                 about page, contact page, projects page and the services that the company offers</p>
                 <a href="https://www.dimeltro.com/" className="lg:text-2xl text-xl text-gray-400 mb-2">https://www.dimeltro.com/</a>
@@ -153,12 +207,12 @@ export default function Main() {
               </Fade>
               <Fade>
               <div className="flex flex-col">
-                <p className="text-3xl font-semibold">Development of a personal website project: "El asado" (2023)</p>
+                <p className="text-3xl font-semibold mb-4"><strong>Development of a personal website project: "El asado" (2023)</strong></p>
                 <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> Angular.js, tailwindcss and firebase.</p>
                 <p className="lg:text-2xl text-xl mb-4">This is a website of a fictional steak restarant known as "El Asado". This website was made to prove my abilities 
                 with Angular and Firebase. This website is composed by different pages like: a home page, about page, contact page, login page (including registration 
                 and recover password), menu and cart.</p>
-                <a href="https://elasado.netlify.app/" className="lg:text-2xl text-xl text-gray-400 mb-2">https://elasado.netlify.app/</a>
+                <p><a href="https://elasado.netlify.app/" className="lg:text-2xl text-xl text-gray-400 mb-2 hover:text-white">https://elasado.netlify.app/</a></p>
                 <a href="https://elasado.netlify.app/">
                   <img src={process.env.PUBLIC_URL + "/elAsado.jpg"} alt="El Asado main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
                 </a>
@@ -166,12 +220,12 @@ export default function Main() {
               </Fade>
               <Fade>
               <div className="flex flex-col">
-                <p className="text-3xl font-semibold">University final work: Development of Kane Taxi app (backend team) (2023)</p>
+                <p className="text-3xl font-semibold mb-4"><strong>University final work: Development of Kane Taxi app (backend team) (2023)</strong></p>
                 <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> Firebase, Node.js and React Native.</p>
                 <p className="lg:text-2xl text-xl mb-4">This is my final project, where I had to work in a team (backend team) and communicate with others teams to develop an 
                 app with a real client. This app is Kane Taxi, a cooperative of women taxi drivers.</p>
-                <a href="https://play.google.com/store/apps/details?id=ucr.ci0156.cooperativademujerestaxistas.client" className="text-gray-400 lg:text-2xl text-xl mb-2">
-                  Kane Taxi app</a>
+                <p><a href="https://play.google.com/store/apps/details?id=ucr.ci0156.cooperativademujerestaxistas.client" className="text-gray-400 lg:text-2xl text-xl mb-2 
+                hover:text-white">Kane Taxi app</a></p>
                 <a href="https://play.google.com/store/apps/details?id=ucr.ci0156.cooperativademujerestaxistas.client">
                   <img src={process.env.PUBLIC_URL + "/kaneTaxi.jpg"} alt="Kane taxi in Google Play store" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
                 </a>
@@ -179,11 +233,11 @@ export default function Main() {
               </Fade>
               <Fade>
               <div className="flex flex-col">
-                <p className="text-3xl font-semibold">University project: Development of Arce Shopping app (2022)</p>
+                <p className="text-3xl font-semibold mb-4"><strong>University project: Development of Arce Shopping app (2022)</strong></p>
                 <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> Firebase, Node.js and React Native.</p>
                 <p className="lg:text-2xl text-xl mb-4">With the help of a work team of 3 members we managed to create a shopping app from the fictional company Arce Shopping. 
                 In the app features we can find: login (including registration and recover password), shop, cart and user profile.</p>
-                <a href="https://github.com/solvalle/ArceShopping" className="lg:text-2xl text-xl text-gray-400 mb-2">Github</a>
+                <p><a href="https://github.com/solvalle/ArceShopping" className="lg:text-2xl text-xl text-gray-400 mb-2 hover:text-white">Github</a></p>
                 <a href="https://github.com/solvalle/ArceShopping">
                   <img src={process.env.PUBLIC_URL + "/arceShopping.jpg"} alt="Arce shopping login page (emulator)" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
                 </a>
@@ -191,12 +245,12 @@ export default function Main() {
               </Fade>
               <Fade>
               <div className="flex flex-col">
-                <p className="text-3xl font-semibold">University project: Development of "Pizza Magma" website (2022)</p>
+                <p className="text-3xl font-semibold mb-4"><strong>University project: Development of "Pizza Magma" website (2022)</strong></p>
                 <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> React.js and tailwind.</p>
                 <p className="lg:text-2xl text-xl mb-4">With the help of a classmate we managed to create a fictional pizzeria known as Pizza Magma. Several functions 
                 were included such as: menu, option to create a personalized pizza, information pages about the pizzeria, login (including registration and recover password) 
                 and a shopping cart</p>
-                <a href="https://pizzamagma.netlify.com" className="lg:text-2xl text-xl text-gray-400 mb-2">https://pizzamagma.netlify.com</a>
+                <p><a href="https://pizzamagma.netlify.com" className="lg:text-2xl text-xl text-gray-400 mb-2 hover:text-white">https://pizzamagma.netlify.com</a></p>
                 <a href="https://pizzamagma.netlify.com">
                   <img src={process.env.PUBLIC_URL + "/pizzaMagma.jpg"} alt="Pizza Magma main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
                 </a>
@@ -204,12 +258,12 @@ export default function Main() {
               </Fade>
               <Fade>
               <div className="flex flex-col">
-                <p className="text-3xl font-semibold">University project: Planetary Halley (2021)</p>
+                <p className="text-3xl font-semibold mb-4"><strong>University project: Planetary Halley (2021)</strong></p>
                 <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> C#, .net and SQLServer.</p>
                 <p className="lg:text-2xl text-xl mb-4">With the help of a work team of 6 members we managed to create a web page of a fictitious planetarium 
                 with the name: Halley Planetarium. Various functions aimed at users and others aimed at system officials were included. Among the general elements 
                 that the page has are: news, activities, frequently asked questions, educational games and graphs for data analysis.</p>
-                <a href="https://github.com/Bryan1150/PI-Inge-Bases-Grupo-3" className="lg:text-2xl text-xl text-gray-400 mb-2">github</a>
+                <p><a href="https://github.com/Bryan1150/PI-Inge-Bases-Grupo-3" className="lg:text-2xl text-xl text-gray-400 hover:text-white mb-2">github</a></p>
                 <a href="https://github.com/Bryan1150/PI-Inge-Bases-Grupo-3">
                   <img src={process.env.PUBLIC_URL + "/planetarioHalley.jpg"} alt="planetario Halley main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
                 </a>
