@@ -15,6 +15,7 @@ const Navbar = () => {
     
     let links = [
         {name:"ABOUT ME",link:"about-me"},
+        {name:"EXPERIENCE",link:"experience"},
         {name:"EDUCATION",link:"education"},
         {name:"CERTIFICATES",link:"certificates"},
         {name:"PROJECTS",link:"projects"},
@@ -30,7 +31,7 @@ const Navbar = () => {
             <div className='lg:flex lg:justify-between items-center py-4 2xl:mx-48 xl:mx-32 md:mx-12 mx-2 text-lg font-semibold font-sans gap-2 w-full max-w-[2000px]'>
                 {/* logo section */}
                 <div className='font-bold cursor-pointer flex items-center lg:w-1/4 w-[125px]'>
-                    <img onClick={() => {closeNavbar(); scrollToId("about-me")}} src={process.env.PUBLIC_URL + "/perfil-removebg.png"} alt='Logo' className='lg:h-20 h-10'/>
+                    <img onClick={() => {closeNavbar(); scrollToId("about-me")}} src={process.env.PUBLIC_URL + "/perfil-removebg2.png"} alt='Logo' className='lg:h-20 h-10'/>
                 </div>
                 {/* Menu icon */}
                 <div onClick={toggleNavbar} className='absolute right-8 top-6 cursor-pointer lg:hidden w-7 h-7'>

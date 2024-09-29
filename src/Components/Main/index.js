@@ -49,7 +49,7 @@ export default function Main() {
                 </p>
               </div>
               <div className="lg:w-1/2 w-full">
-                <img src={process.env.PUBLIC_URL + "/perfil2.jpg"} alt="foto de perfil" className="lg:max-h-none max-h-[500px] h-full w-full object-cover"/>
+                <img src={process.env.PUBLIC_URL + "/perfil3.jpg"} alt="foto de perfil" className="lg:max-h-none max-h-[500px] h-full w-full object-cover"/>
               </div>
             </div>
             <div id="experience" className="flex flex-col my-14 gap-y-6">
@@ -191,85 +191,85 @@ export default function Main() {
                 </Fade>
               </div>
             </div>
+            
             <div id="projects" className="flex flex-col my-14 gap-y-12">
               <p className="text-4xl font-bold">Projects</p>
-              <Fade>
-              <div className="flex flex-col">
-                <p className="text-3xl font-semibold mb-4"><strong>Development of a website for the company Dimeltro (2023)</strong>.</p>
-                <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> React.js and tailwindcss.</p>
-                <p className="lg:text-2xl text-xl mb-4">Dimeltro contracted me to make a website of their company. This is an informative website that has: home page,
-                about page, contact page, projects page and the services that the company offers</p>
-                <a href="https://www.dimeltro.com/" className="lg:text-2xl text-xl text-gray-400 mb-2">https://www.dimeltro.com/</a>
-                <a href="https://www.dimeltro.com/">
-                  <img src={process.env.PUBLIC_URL + "/dimeltro.jpg"} alt="Dimeltro main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
-                </a>
+              <div className="flex flex-col gap-y-8 items-start">
+
+                <div className="flex lg:flex-row flex-col w-full justify-between lg:items-start items-center gap-x-6 gap-y-8">
+                  <Fade className="flex flex-col items-center gap-y-4 lg:w-[700px] w-full mx-6">
+                    <div className="flex flex-col">
+                      <p className="text-3xl font-semibold mb-4"><strong>Development of a website for the company Dimeltro (2023)</strong>.</p>
+                      <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> React.js and tailwindcss.</p>
+                      <a href="https://www.dimeltro.com/">
+                        <img src={process.env.PUBLIC_URL + "/dimeltro.jpg"} alt="Dimeltro main page" className='lg:h-[500px] md:h-[200px] sm:h-[100px] w-full
+                        hover:opacity-30'/>
+                      </a>
+                    </div>
+                  </Fade>
+                
+                  <Fade className="flex flex-col items-center gap-y-4 lg:w-[700px] w-full mx-6">
+                    <div className="flex flex-col">
+                      <p className="text-3xl font-semibold mb-4"><strong>Development of a personal website project: "El asado" (2023)</strong></p>
+                      <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> Angular.js, tailwindcss and firebase.</p>
+                      <a href="https://elasado.netlify.app/">
+                        <img src={process.env.PUBLIC_URL + "/elAsado.jpg"} alt="El Asado main page" className='lg:h-[500px] md:h-[200px] sm:h-[100px] w-full hover:opacity-30'/>
+                      </a>
+                    </div>
+                  </Fade>
+                </div>
+
+                <div className="flex lg:flex-row flex-col w-full justify-between lg:items-start items-center gap-x-6 gap-y-8">
+                  <Fade className="flex flex-col items-center gap-y-4 lg:w-[700px] w-full mx-6">
+                  <div className="flex flex-col">
+                    <p className="text-3xl font-semibold mb-4"><strong>University final work: Development of Kane Taxi app (backend team) (2023)</strong></p>
+                    <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> Firebase, Node.js and React Native.</p>
+                    <a href="https://play.google.com/store/apps/details?id=ucr.ci0156.cooperativademujerestaxistas.client">
+                      <img src={process.env.PUBLIC_URL + "/kaneTaxi.jpg"} alt="Kane taxi in Google Play store" className='lg:h-[500px] md:h-[200px] sm:h-[100px] w-full
+                      hover:opacity-30'/>
+                    </a>
+                  </div>
+                  </Fade>
+
+                  <Fade className="flex flex-col items-center gap-y-4 lg:w-[700px] w-full mx-6">
+                  <div className="flex flex-col">
+                    <p className="text-3xl font-semibold mb-4"><strong>University project: Development of Arce Shopping app (2022)</strong></p>
+                    <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> Firebase, Node.js and React Native.</p>
+                    <a href="https://github.com/solvalle/ArceShopping">
+                      <img src={process.env.PUBLIC_URL + "/arceShopping.jpg"} alt="Arce shopping login page (emulator)" 
+                      className='lg:h-[500px] md:h-[200px] sm:h-[100px] w-full hover:opacity-30'/>
+                    </a>
+                  </div>
+                  </Fade>
+                </div>
+
+                <div className="flex lg:flex-row flex-col w-full justify-between lg:items-start items-center gap-x-6 gap-y-8">
+                  <Fade className="flex flex-col items-center gap-y-4 lg:w-[700px] w-full mx-6">
+                  <div className="flex flex-col">
+                    <p className="text-3xl font-semibold mb-4"><strong>University project: Development of "Pizza Magma" website (2022)</strong></p>
+                    <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> React.js and tailwind.</p>
+                    <a href="https://pizzamagma.netlify.com">
+                      <img src={process.env.PUBLIC_URL + "/pizzaMagma.jpg"} alt="Pizza Magma main page" className='lg:h-[500px] md:h-[200px] sm:h-[100px] w-full 
+                      hover:opacity-30'/>
+                    </a>
+                  </div>
+                  </Fade>
+
+                  <Fade className="flex flex-col items-center gap-y-4 lg:w-[700px] w-full mx-6">
+                  <div className="flex flex-col">
+                    <p className="text-3xl font-semibold mb-4"><strong>University project: Planetary Halley website (2021)</strong></p>
+                    <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> C#, .net and SQLServer.</p>
+                    <a href="https://github.com/Bryan1150/PI-Inge-Bases-Grupo-3">
+                      <img src={process.env.PUBLIC_URL + "/planetarioHalley.jpg"} alt="planetario Halley main page" className='lg:h-[500px] md:h-[200px] sm:h-[100px] w-full 
+                      hover:opacity-30'/>
+                    </a>
+                  </div>
+                  </Fade>
+                </div>
+
               </div>
-              </Fade>
-              <Fade>
-              <div className="flex flex-col">
-                <p className="text-3xl font-semibold mb-4"><strong>Development of a personal website project: "El asado" (2023)</strong></p>
-                <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> Angular.js, tailwindcss and firebase.</p>
-                <p className="lg:text-2xl text-xl mb-4">This is a website of a fictional steak restarant known as "El Asado". This website was made to prove my abilities 
-                with Angular and Firebase. This website is composed by different pages like: a home page, about page, contact page, login page (including registration 
-                and recover password), menu and cart.</p>
-                <p><a href="https://elasado.netlify.app/" className="lg:text-2xl text-xl text-gray-400 mb-2 hover:text-white">https://elasado.netlify.app/</a></p>
-                <a href="https://elasado.netlify.app/">
-                  <img src={process.env.PUBLIC_URL + "/elAsado.jpg"} alt="El Asado main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
-                </a>
-              </div>
-              </Fade>
-              <Fade>
-              <div className="flex flex-col">
-                <p className="text-3xl font-semibold mb-4"><strong>University final work: Development of Kane Taxi app (backend team) (2023)</strong></p>
-                <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> Firebase, Node.js and React Native.</p>
-                <p className="lg:text-2xl text-xl mb-4">This is my final project, where I had to work in a team (backend team) and communicate with others teams to develop an 
-                app with a real client. This app is Kane Taxi, a cooperative of women taxi drivers.</p>
-                <p><a href="https://play.google.com/store/apps/details?id=ucr.ci0156.cooperativademujerestaxistas.client" className="text-gray-400 lg:text-2xl text-xl mb-2 
-                hover:text-white">Kane Taxi app</a></p>
-                <a href="https://play.google.com/store/apps/details?id=ucr.ci0156.cooperativademujerestaxistas.client">
-                  <img src={process.env.PUBLIC_URL + "/kaneTaxi.jpg"} alt="Kane taxi in Google Play store" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
-                </a>
-              </div>
-              </Fade>
-              <Fade>
-              <div className="flex flex-col">
-                <p className="text-3xl font-semibold mb-4"><strong>University project: Development of Arce Shopping app (2022)</strong></p>
-                <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> Firebase, Node.js and React Native.</p>
-                <p className="lg:text-2xl text-xl mb-4">With the help of a work team of 3 members we managed to create a shopping app from the fictional company Arce Shopping. 
-                In the app features we can find: login (including registration and recover password), shop, cart and user profile.</p>
-                <p><a href="https://github.com/solvalle/ArceShopping" className="lg:text-2xl text-xl text-gray-400 mb-2 hover:text-white">Github</a></p>
-                <a href="https://github.com/solvalle/ArceShopping">
-                  <img src={process.env.PUBLIC_URL + "/arceShopping.jpg"} alt="Arce shopping login page (emulator)" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
-                </a>
-              </div>
-              </Fade>
-              <Fade>
-              <div className="flex flex-col">
-                <p className="text-3xl font-semibold mb-4"><strong>University project: Development of "Pizza Magma" website (2022)</strong></p>
-                <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> React.js and tailwind.</p>
-                <p className="lg:text-2xl text-xl mb-4">With the help of a classmate we managed to create a fictional pizzeria known as Pizza Magma. Several functions 
-                were included such as: menu, option to create a personalized pizza, information pages about the pizzeria, login (including registration and recover password) 
-                and a shopping cart</p>
-                <p><a href="https://pizzamagma.netlify.com" className="lg:text-2xl text-xl text-gray-400 mb-2 hover:text-white">https://pizzamagma.netlify.com</a></p>
-                <a href="https://pizzamagma.netlify.com">
-                  <img src={process.env.PUBLIC_URL + "/pizzaMagma.jpg"} alt="Pizza Magma main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
-                </a>
-              </div>
-              </Fade>
-              <Fade>
-              <div className="flex flex-col">
-                <p className="text-3xl font-semibold mb-4"><strong>University project: Planetary Halley (2021)</strong></p>
-                <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> C#, .net and SQLServer.</p>
-                <p className="lg:text-2xl text-xl mb-4">With the help of a work team of 6 members we managed to create a web page of a fictitious planetarium 
-                with the name: Halley Planetarium. Various functions aimed at users and others aimed at system officials were included. Among the general elements 
-                that the page has are: news, activities, frequently asked questions, educational games and graphs for data analysis.</p>
-                <p><a href="https://github.com/Bryan1150/PI-Inge-Bases-Grupo-3" className="lg:text-2xl text-xl text-gray-400 hover:text-white mb-2">github</a></p>
-                <a href="https://github.com/Bryan1150/PI-Inge-Bases-Grupo-3">
-                  <img src={process.env.PUBLIC_URL + "/planetarioHalley.jpg"} alt="planetario Halley main page" className='lg:h-[800px] md:h-[400px] sm:h-[300px] w-full'/>
-                </a>
-              </div>
-              </Fade>
             </div>
+
             <div id="contact-me" className="flex flex-col mt-14 mb-4 gap-y-8">
               <p className="text-4xl font-bold">Contact me</p>
               <p className="lg:text-2xl text-xl">Are you interested in my job? you can contact me:</p>
