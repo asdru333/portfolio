@@ -40,8 +40,8 @@ const Navbar = () => {
                     }
                 </div>
                 {/* linke items */}
-                <div className={`lg:flex justify-between lg:flex-row pl-2 lg:pl-0 lg:pb-0 pb-2 lg:pt-0 pt-4 lg:static lg:z-auto z-[-1] w-full absolute 
-                transition-all duration-500 ease-in ${isOpenMenu ? 'flex flex-col' : 'hidden'}`}>
+                <div className={`lg:flex justify-between lg:flex-row pl-2 lg:pl-0 lg:pb-0 pb-2 lg:pt-0 pt-4 lg:static lg:z-auto z-[-1] w-full left-0 absolute 
+                transition-all duration-500 ease-in bg-[#d9e7f0] ${isOpenMenu ? 'flex flex-col' : 'hidden'}`}>
                 {
                     links.map((link) => (
                         <div onClick={() => {closeNavbar(); scrollToId(link.link)}} className='block hover:text-white lg:mx-0 mx-4 my-2 cursor-pointer'>
