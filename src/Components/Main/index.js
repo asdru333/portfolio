@@ -286,7 +286,7 @@ export default function Main() {
                   <IoLogoGithub className="h-10 w-10"/>
                   <p className="self-end">https://github.com/asdru333</p>
                 </a>
-                <a className="flex hover:text-[#d9e7f0]" href="www.linkedin.com/in/asdrubal-antonio-villegas-molina" id="github">
+                <a className="flex hover:text-[#d9e7f0]" href="https://www.linkedin.com/in/asdrubal-antonio-villegas-molina" id="linkedin">
                   <IoLogoLinkedin className="h-10 w-10"/>
                   <p className="self-end">www.linkedin.com/in/asdrubal-antonio-villegas-molina</p>
                 </a>
