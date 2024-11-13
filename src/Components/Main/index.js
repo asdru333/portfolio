@@ -56,7 +56,7 @@ export default function Main() {
               <p className="text-4xl font-bold mb-4">Experience</p>
                 <Fade>
                 <div className="flex flex-col lg:gap-x-8 lg:gap-y-4 gap-y-2">
-                  <p className="text-3xl font-semibold"><img src={process.env.PUBLIC_URL + "/Gao-logo.jpg"} className="h-10 w-18 inline mr-2" alt="Gao logo"/>
+                  <p className="text-3xl font-semibold"><img src={process.env.PUBLIC_URL + "/cyracom-logo.png"} className="h-10 w-18 inline mr-2" alt="Cyracom logo"/>
                   Customer service at Cyracom (2024 - Present)</p>
                   <p className="lg:text-2xl text-xl">As an interpreter and support specialist, my focus is on ensuring that customer inquiries and technical issues 
                     are addressed with accuracy and efficiency. This includes the ability to interpret and convey complex information clearly and concisely, as well 
@@ -67,7 +67,7 @@ export default function Main() {
 
                 <Fade>
                 <div className="flex flex-col lg:gap-x-8 lg:gap-y-4 gap-y-2">
-                  <p className="text-3xl font-semibold"><img src={process.env.PUBLIC_URL + "/cyracom-logo.png"} className="h-10 w-18 inline mr-2" alt="Cyracom logo"/>
+                  <p className="text-3xl font-semibold"><img src={process.env.PUBLIC_URL + "/Gao-logo.jpg"} className="h-10 w-18 inline mr-2" alt="GAO logo"/>
                   Tech support and then team leader at GAO Tek Inc (2023 - 2024)</p>
                   <p className="lg:text-2xl text-xl"><b>Team leader:</b> By demonstrating my skills in technical support, I was promoted to Assistant Team Leader 
                   and shortly after I ascended to Team Leader. My responsibility involved carrying out administrative, supervision, development and training tasks. 
@@ -202,7 +202,7 @@ export default function Main() {
                       <p className="text-3xl font-semibold mb-4"><strong>Development of a website for the company Dimeltro (2023)</strong>.</p>
                       <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> React.js and tailwindcss.</p>
                       <a href="https://www.dimeltro.com/">
-                        <img src={process.env.PUBLIC_URL + "/dimeltro.jpg"} alt="Dimeltro main page" className='lg:h-[500px] md:h-[200px] sm:h-[100px] w-full
+                        <img src={process.env.PUBLIC_URL + "/dimeltro.jpg"} alt="Dimeltro main page" className='lg:h-[500px] md:h-[350px] w-full
                         hover:opacity-30'/>
                       </a>
                     </div>
@@ -213,7 +213,7 @@ export default function Main() {
                       <p className="text-3xl font-semibold mb-4"><strong>Development of a personal website project: "El asado" (2023)</strong></p>
                       <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> Angular.js, tailwindcss and firebase.</p>
                       <a href="https://elasado.netlify.app/">
-                        <img src={process.env.PUBLIC_URL + "/elAsado.jpg"} alt="El Asado main page" className='lg:h-[500px] md:h-[200px] sm:h-[100px] w-full hover:opacity-30'/>
+                        <img src={process.env.PUBLIC_URL + "/elAsado.jpg"} alt="El Asado main page" className='lg:h-[500px] md:h-[350px] w-full hover:opacity-30'/>
                       </a>
                     </div>
                   </Fade>
@@ -225,7 +225,7 @@ export default function Main() {
                     <p className="text-3xl font-semibold mb-4"><strong>University final work: Development of Kane Taxi app (backend team) (2023)</strong></p>
                     <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> Firebase, Node.js and React Native.</p>
                     <a href="https://play.google.com/store/apps/details?id=ucr.ci0156.cooperativademujerestaxistas.client">
-                      <img src={process.env.PUBLIC_URL + "/kaneTaxi.jpg"} alt="Kane taxi in Google Play store" className='lg:h-[500px] md:h-[200px] sm:h-[100px] w-full
+                      <img src={process.env.PUBLIC_URL + "/kaneTaxi.jpg"} alt="Kane taxi in Google Play store" className='lg:h-[500px] md:h-[350px] w-full
                       hover:opacity-30'/>
                     </a>
                   </div>
@@ -237,7 +237,7 @@ export default function Main() {
                     <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> Firebase, Node.js and React Native.</p>
                     <a href="https://github.com/solvalle/ArceShopping">
                       <img src={process.env.PUBLIC_URL + "/arceShopping.jpg"} alt="Arce shopping login page (emulator)" 
-                      className='lg:h-[500px] md:h-[200px] sm:h-[100px] w-full hover:opacity-30'/>
+                      className='lg:h-[500px] md:h-[350px] w-full hover:opacity-30'/>
                     </a>
                   </div>
                   </Fade>
@@ -249,7 +249,7 @@ export default function Main() {
                     <p className="text-3xl font-semibold mb-4"><strong>University project: Development of "Pizza Magma" website (2022)</strong></p>
                     <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> React.js and tailwind.</p>
                     <a href="https://pizzamagma.netlify.com">
-                      <img src={process.env.PUBLIC_URL + "/pizzaMagma.jpg"} alt="Pizza Magma main page" className='lg:h-[500px] md:h-[200px] sm:h-[100px] w-full 
+                      <img src={process.env.PUBLIC_URL + "/pizzaMagma.jpg"} alt="Pizza Magma main page" className='lg:h-[500px] md:h-[350px] w-full 
                       hover:opacity-30'/>
                     </a>
                   </div>
@@ -260,7 +260,7 @@ export default function Main() {
                     <p className="text-3xl font-semibold mb-4"><strong>University project: Planetary Halley website (2021)</strong></p>
                     <p className="lg:text-2xl text-xl mb-4"><b>Technologies:</b> C#, .net and SQLServer.</p>
                     <a href="https://github.com/Bryan1150/PI-Inge-Bases-Grupo-3">
-                      <img src={process.env.PUBLIC_URL + "/planetarioHalley.jpg"} alt="planetario Halley main page" className='lg:h-[500px] md:h-[200px] sm:h-[100px] w-full 
+                      <img src={process.env.PUBLIC_URL + "/planetarioHalley.jpg"} alt="planetario Halley main page" className='lg:h-[500px] md:h-[350px] w-full 
                       hover:opacity-30'/>
                     </a>
                   </div>
