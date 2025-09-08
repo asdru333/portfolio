@@ -15,16 +15,19 @@ export default function Main() {
 
     const [universitary, setUniversitary] = useState(false)
 
+    const [master, setMaster] = useState(false)
+
     return (
         <div id="main" className="flex justify-center bg-[#203447]">
           <div className="justify-center bg-[#203447] py-4 2xl:mx-48 xl:mx-32 md:mx-12 mx-2 text-lg font-sans gap-2 w-full max-w-[2000px] text-white">
             <div id="about-me" className="flex lg:flex-row flex-col-reverse gap-x-8 min-h-[85vh]">
               <div className="lg:w-1/2 w-full text-justify">
-                <p className="2xl:text-2xl xl:text-xl text-lg">Hi, my name is <b>Asdrúbal Villegas Molina</b>.<br/><br/> 
-                I'm a junior developer who just graduated from the University of Costa Rica with a bachelor's degree in Computing with Various Emphasis.<br/><br/>
-                My expertise lies in crafting captivating digital experiences through the creation of <b>web</b> and <b>mobile</b> applications. With a deep-rooted love for the digital 
-                realm, I combine technical prowess with creative ingenuity to bring innovative ideas to life. Let's connect and explore the endless possibilities of the 
-                digital frontier together.<br/><br/>
+                <p className="2xl:text-2xl xl:text-xl text-lg">Hi, my name is <b>Asdrúbal Villegas Molina</b>. I am a Computer Engineer, 
+                graduated with honors from the University of Costa Rica. I have a lot of knowledge in software development, cybersecurity, 
+                cloud computing, and technical support. Certified in AWS Cloud and Cybersecurity, with strong proficiency in modern 
+                technologies.<br/>
+                Additionally, I have extensive experience in customer service across fields such as technology, healthcare, banking, 
+                and emergency services, recognized for clear communication and efficient problem-solving.<br/><br/>
                 Web developments skills (fullstack):<br/>
                 <div className="flex flex-wrap gap-x-8 mt-2 items-center">
                   <IoLogoNodejs className="h-10 w-10"/> <IoLogoAngular className="h-10 w-10"/> <IoLogoReact className="h-10 w-10"/> <TbBrandCSharp className="h-10 w-10"/>
@@ -57,11 +60,14 @@ export default function Main() {
                 <Fade>
                 <div className="flex flex-col lg:gap-x-8 lg:gap-y-4 gap-y-2">
                   <p className="text-3xl font-semibold"><img src={process.env.PUBLIC_URL + "/cyracom-logo.png"} className="h-10 w-18 inline mr-2" alt="Cyracom logo"/>
-                  Customer service at Cyracom (2024 - Present)</p>
+                  Customer service at Cyracom (2024 - 2025)</p>
                   <p className="lg:text-2xl text-xl">As an interpreter and support specialist, my focus is on ensuring that customer inquiries and technical issues 
                     are addressed with accuracy and efficiency. This includes the ability to interpret and convey complex information clearly and concisely, as well 
                     as resolving issues in real-time to ensure customer satisfaction in various fields such as technology, healthcare, insurance, banking, and emergency 
-                    services.</p>
+                    services.<br/>
+                    At the company, I also received certified coach training and was periodically responsible for training and mentoring new employees. This role allowed 
+                    me to cultivate strong interpersonal and leadership skills, foster a supportive learning environment, and contribute to the professional growth of 
+                    team members. I took pride in helping new hires acclimate quickly, build confidence, and align with the company's values and goals.</p>
                 </div>
                 </Fade>
 
@@ -139,6 +145,15 @@ export default function Main() {
                     San Jose, Costa Rica.</p>
                   </div>
                 </div>
+                <div className="flex flex-col gap-y-4">
+                  <button className={`rounded-xl py-2 px-4 text-3xl ${master  ? 'bg-[#d9e7f0] text-[#203447]' : 'bg-white text-[#203447]'}`} 
+                  onClick={() => setMaster(!master)}>master education</button>
+                  <div className={`flex flex-col justify-center ${master  ? 'inline' : 'hidden'}`}>
+                    <img src={process.env.PUBLIC_URL + "/EsnecaLogo.jpg"} alt="Esneca logo" className="self-center w-[200px] h-[180px]"/>
+                    <p className="text-2xl my-4 text-center self-center"><b>Esneca Business School</b> (2023-2024)<br/>
+                    Lleida, España.</p>
+                  </div>
+                </div>
               </div>
             </div>
             <div id="certificates" className="flex flex-col my-14 gap-y-12">
@@ -148,19 +163,22 @@ export default function Main() {
                 <p className="text-3xl font-semibold">Aditional courses</p>
                 <Carousel showThumbs={false} autoPlay={true} interval={3000} infiniteLoop={true}>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/pythonProgramacion.jpg"} alt="carrusel 1" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/AWS.jpg"} alt="carrusel 1" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/habilidadesBlandas.jpg"} alt="carrusel 2" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/pythonProgramacion.jpg"} alt="carrusel 2" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/ciberseguridadFidelitas.jpg"} alt="carrusel 3" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/habilidadesBlandas.jpg"} alt="carrusel 3" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/CursoInglesB2.jpg"} alt="carrusel 4" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/ciberseguridadFidelitas.jpg"} alt="carrusel 4" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/matem.jpg"} alt="carrusel 5" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/CursoInglesB2.jpg"} alt="carrusel 5" className='lg:h-[700px] h-[450px]'/>
+                  </div>
+                  <div>
+                    <img src={process.env.PUBLIC_URL + "/matem.jpg"} alt="carrusel 6" className='lg:h-[700px] h-[450px]'/>
                   </div>
                 </Carousel>
                 </Fade>
@@ -170,22 +188,31 @@ export default function Main() {
                 <p className="text-3xl font-semibold">Recognitions and honorable mentions</p>
                 <Carousel showThumbs={false} autoPlay={true} interval={3000} infiniteLoop={true}>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/ucrMencion.jpg"} alt="carrusel 1" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/cyracomCoach.jpg"} alt="carrusel 1" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/TecAdmision.jpg"} alt="carrusel 2" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/Esneca.jpg"} alt="carrusel 2" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/BachilerConExcelencia.jpg"} alt="carrusel 3" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/cyracomInterpreter.jpg"} alt="carrusel 3" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/kamusExcelenciaAcadémica.jpg"} alt='carrusel 4' className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/ucrMencion.jpg"} alt="carrusel 4" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/mejoresPrimeroPromediosCircuito.jpg"} alt='carrusel 5' className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/TecAdmision.jpg"} alt="carrusel 5" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/mejoresTerceroPromediosCircuito.jpg"} alt='carrusel 6' className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/BachilerConExcelencia.jpg"} alt="carrusel 6" className='lg:h-[700px] h-[450px]'/>
+                  </div>
+                  <div>
+                    <img src={process.env.PUBLIC_URL + "/kamusExcelenciaAcadémica.jpg"} alt='carrusel 7' className='lg:h-[700px] h-[450px]'/>
+                  </div>
+                  <div>
+                    <img src={process.env.PUBLIC_URL + "/mejoresPrimeroPromediosCircuito.jpg"} alt='carrusel 8' className='lg:h-[700px] h-[450px]'/>
+                  </div>
+                  <div>
+                    <img src={process.env.PUBLIC_URL + "/mejoresTerceroPromediosCircuito.jpg"} alt='carrusel 9' className='lg:h-[700px] h-[450px]'/>
                   </div>
                 </Carousel>
                 </Fade>
@@ -195,7 +222,6 @@ export default function Main() {
             <div id="projects" className="flex flex-col my-14 gap-y-12">
               <p className="text-4xl font-bold">Projects</p>
               <div className="flex flex-col gap-y-8 items-start">
-
                 <div className="flex lg:flex-row flex-col w-full justify-between lg:items-start items-center gap-x-6 gap-y-8">
                   <Fade className="flex flex-col items-center gap-y-4 lg:w-[700px] w-full mx-6">
                     <div className="flex flex-col">
@@ -274,13 +300,13 @@ export default function Main() {
               <p className="text-4xl font-bold">Contact me</p>
               <p className="lg:text-2xl text-xl">Are you interested in my job? you can contact me:</p>
               <div className="flex lg:flex-row flex-col lg:justify-between gap-y-5">
-                <a href="tel:+506-70462055" id="number" className="flex hover:text-[#d9e7f0]">
+                <a className="flex hover:text-[#d9e7f0]" href="tel:+506-70462055" id="number">
                   <TbPhone className="h-10 w-10"/>
-                  <p className="self-end">(506) 70462055</p>
+                  <p className="self-end">(+506) 70462055</p>
                 </a>
-                <a href="mailTo:asdrubal.villegas.molina@hotmail.com" id="mail" className="flex hover:text-[#d9e7f0]">
+                <a className="flex hover:text-[#d9e7f0]" href="mailTo:asdrubal.villegas.molina@hotmail.com" id="mail">
                   <TbMailFilled className="h-10 w-10"/>
-                  <p className="self-end">asdrubal.villegas.molina@hotmail.com</p>
+                  <p className="self-end">asdrubal.villegasm@gmail.com</p>
                 </a>
                 <a className="flex hover:text-[#d9e7f0]" href="https://github.com/asdru333" id="github">
                   <IoLogoGithub className="h-10 w-10"/>
