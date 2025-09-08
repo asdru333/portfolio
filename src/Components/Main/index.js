@@ -64,7 +64,7 @@ export default function Main() {
                   <p className="lg:text-2xl text-xl">As an interpreter and support specialist, my focus is on ensuring that customer inquiries and technical issues 
                     are addressed with accuracy and efficiency. This includes the ability to interpret and convey complex information clearly and concisely, as well 
                     as resolving issues in real-time to ensure customer satisfaction in various fields such as technology, healthcare, insurance, banking, and emergency 
-                    services.<br/>
+                    services.<br/><br/>
                     At the company, I also received certified coach training and was periodically responsible for training and mentoring new employees. This role allowed 
                     me to cultivate strong interpersonal and leadership skills, foster a supportive learning environment, and contribute to the professional growth of 
                     team members. I took pride in helping new hires acclimate quickly, build confidence, and align with the company's values and goals.</p>
@@ -142,6 +142,7 @@ export default function Main() {
                   <div className={`flex flex-col justify-center ${universitary  ? 'inline' : 'hidden'}`}>
                     <img src={process.env.PUBLIC_URL + "/ucr-logo.jpeg"} alt="UCR logo" className="self-center w-[200px] h-[180px]"/>
                     <p className="text-2xl my-4 text-center self-center"><b>University of Costa Rica</b> (2018-2023)<br/>
+                    Bachelor's degree in Computer Science<br/>
                     San Jose, Costa Rica.</p>
                   </div>
                 </div>
@@ -151,6 +152,7 @@ export default function Main() {
                   <div className={`flex flex-col justify-center ${master  ? 'inline' : 'hidden'}`}>
                     <img src={process.env.PUBLIC_URL + "/EsnecaLogo.jpg"} alt="Esneca logo" className="self-center w-[200px] h-[180px]"/>
                     <p className="text-2xl my-4 text-center self-center"><b>Esneca Business School</b> (2023-2024)<br/>
+                    Master in Artificial Intelligence Applied to Business<br/>
                     Lleida, España.</p>
                   </div>
                 </div>
@@ -166,19 +168,22 @@ export default function Main() {
                     <img src={process.env.PUBLIC_URL + "/AWS.jpg"} alt="carrusel 1" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/pythonProgramacion.jpg"} alt="carrusel 2" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/FideExcellAvanzado.jpg"} alt="carrusel 2" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/habilidadesBlandas.jpg"} alt="carrusel 3" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/pythonProgramacion.jpg"} alt="carrusel 3" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/ciberseguridadFidelitas.jpg"} alt="carrusel 4" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/habilidadesBlandas.jpg"} alt="carrusel 4" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/CursoInglesB2.jpg"} alt="carrusel 5" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/ciberseguridadFidelitas.jpg"} alt="carrusel 5" className='lg:h-[700px] h-[450px]'/>
                   </div>
                   <div>
-                    <img src={process.env.PUBLIC_URL + "/matem.jpg"} alt="carrusel 6" className='lg:h-[700px] h-[450px]'/>
+                    <img src={process.env.PUBLIC_URL + "/CursoInglesB2.jpg"} alt="carrusel 6" className='lg:h-[700px] h-[450px]'/>
+                  </div>
+                  <div>
+                    <img src={process.env.PUBLIC_URL + "/matem.jpg"} alt="carrusel 7" className='lg:h-[700px] h-[450px]'/>
                   </div>
                 </Carousel>
                 </Fade>
