@@ -56,8 +56,20 @@ export default function Main() {
               <p className="text-4xl font-bold mb-4">Experience</p>
                 <Fade>
                 <div className="flex flex-col lg:gap-x-8 lg:gap-y-4 gap-y-2">
+                  <p className="text-3xl font-semibold"><img src={process.env.PUBLIC_URL + "/equifax-logo.png"} className="h-10 w-18 inline mr-2" alt="Equifax logo"/>
+                  Customer service representative at Equifax (2025 - Present)</p>
+                  <p className="lg:text-2xl text-xl">I provide specialized assistance to users who have questions or experience issues related to Equifax's digital 
+                    services. My role focuses on diagnosing and resolving technical problems, guiding customers in the proper use of the web platform, and delivering 
+                    clear and accurate information.<br/>
+                    I also assess complex situations, offer efficient real-time solutions, and ensure a positive customer experience by maintaining high quality 
+                    standards in every interaction.</p>
+                </div>
+                </Fade>
+
+                <Fade>
+                <div className="flex flex-col lg:gap-x-8 lg:gap-y-4 gap-y-2">
                   <p className="text-3xl font-semibold"><img src={process.env.PUBLIC_URL + "/cyracom-logo.png"} className="h-10 w-18 inline mr-2" alt="Cyracom logo"/>
-                  Customer service at Cyracom (2024 - Present)</p>
+                  Customer service agent at Cyracom (2024 - 2025)</p>
                   <p className="lg:text-2xl text-xl">As an interpreter and support specialist, my focus is on ensuring that customer inquiries and technical issues 
                     are addressed with accuracy and efficiency. This includes the ability to interpret and convey complex information clearly and concisely, as well 
                     as resolving issues in real-time to ensure customer satisfaction in various fields such as technology, healthcare, insurance, banking, and emergency 
